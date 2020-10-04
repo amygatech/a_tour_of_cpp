@@ -8,5 +8,6 @@ cmake_policy(SET CMP0074 NEW)
 # ------------------------------------------------------------------------------
 add_subdirectory (01_basics)
 add_subdirectory (02_user_defined_types)
+add_subdirectory (03_modularity)
 
 

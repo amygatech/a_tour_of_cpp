@@ -62,6 +62,7 @@ public:
         return complex{real_ + z.real(), image_ + z.image()};
     }
 
+
     complex operator-(const complex &z) {
         return complex{real_ - z.real(), image_ - z.image()}; // another way
     }
@@ -76,6 +77,9 @@ public:
 
     // implementation is in complex.cpp
     void print();
+
+   
+  
 };
 
 
@@ -83,4 +87,3 @@ void complex::print() {
     std::cout << "Real: " << real_ << std::endl;
     std::cout << "Image: " << image_ << std::endl;
 }
-

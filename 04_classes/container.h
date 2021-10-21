@@ -15,10 +15,10 @@ public:
     void xpto() { std::cout << "xpto of Container class\n"; }
 };
 
-void use(Container &c) 
-{ 
-    const int sz = c.size(); 
-    for (int i = 0; i != sz; ++i) {
-        std::cout << " Container i:" << i << "value:" << c[i] << "\r\n";
-    }
-}
+//void use(Container &c) 
+//{ 
+//    const int sz = c.size(); 
+//    for (int i = 0; i != sz; ++i) {
+//        std::cout << " Container i:" << i << "value:" << c[i] << "\r\n";
+//    }
+//}

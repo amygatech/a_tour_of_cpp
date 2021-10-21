@@ -1,11 +1,19 @@
-#include "Vector.h"
+#include "vector.h"
 #include <cmath>
 
 using namespace std;
 
-Vector::Vector(int s) : elem{new double[s]}, sz{s} {};
-double &Vector::operator[](int i) { return elem[i]; }
-int             Vector::size() { return sz; }
+Vector::Vector(int s) : elem{new double[s]}, sz{s} 
+{
+};
+double &Vector::operator[](int i) 
+{ 
+    return elem[i]; 
+}
+int Vector::size() 
+{ 
+    return sz; 
+}
 
 // user.cpp
 double sqrt_sum(Vector &v) {
@@ -14,7 +22,7 @@ double sqrt_sum(Vector &v) {
     for (int i = 0; i != v.size(); ++i) {
         std::cout << "v [" << i << "]: " << v[i] << "\r\n"; 
         std::cout << "sqrt(v[i]) " << sqrt(v[i]) << "\r\n";
-        sum += sqrt(v[i]);
+        sum += sqrt(v[i]); // sum of square roots
     }
     return sum;
 }

@@ -39,9 +39,34 @@ void print() {
     std::cout << std::endl;
 }
 
+void increment() { 
+    int v[] = {0, 1, 2, 3, 4, 5};
+    for (auto &x : v)
+        ++x;
+    std::cout << "\n now value in v[] \n";
+    for (auto x : v) {
+        std::cout << x << "\n";
+    }
+}
+
+// count the number of occurrences of x in p[]
+// p is assumed to point to 
+//a zero-terminated array of char (or to nothing)
+int count_x(char* p, char x) { 
+    if (p == nullptr) return 0;
+    int count = 0;
+    for (; p != nullptr; ++p) {
+        if (*p == x) { 
+            ++count; 
+        }
+    }
+    return count;
+
+}
 
 int main() {
-    print();
+    //print();
+    increment();
     return 0;
 }
 

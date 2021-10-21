@@ -17,6 +17,6 @@ public:
     ~ListContainer() { std::cout << "calling ListContainer destructor\n"; }
 
     double &operator[](int i) override;
-
-    int size() const override { return ld.size(); }
+    
+    int size() const override { return (int)ld.size(); }
 };

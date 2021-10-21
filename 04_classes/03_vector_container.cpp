@@ -23,20 +23,11 @@ void useVectorContainer() {
     //use(vc);
     //vc.xpto(); // it calls the 'xpto' of Vector
 }
-//
-//
-void useListContainer() {
-    std::cout << "useListContainer\n";
-    
-    //ListContainer lc = {0, 1, 2, 3, 4};
-    //use(lc);
-}
 
 
 int main() {
     useVectorContainer();
     std::cout << "\n";
-    //useListContainer();
-    
+
     return 0;
 }

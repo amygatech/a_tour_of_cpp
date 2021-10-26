@@ -11,5 +11,6 @@ add_subdirectory (02_user_defined_types)
 add_subdirectory (03_modularity)
 add_subdirectory (04_classes)
 add_subdirectory (05_template)
+add_subdirectory (06_testing_funcs)
 
 

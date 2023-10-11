@@ -13,5 +13,6 @@ add_subdirectory (03_modularity)
 add_subdirectory (04_classes)
 add_subdirectory (05_template)
 add_subdirectory (06_testing_funcs)
+add_subdirectory (07_tests_embedded_c)
 
 

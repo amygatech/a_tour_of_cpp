@@ -4,6 +4,9 @@
 #include <stdexcept> // std::length_error
 #include <algorithm> // std::copy
 
+using std::cout;
+using std::endl;
+
 template <typename T> 
 class Vector {
 private:
